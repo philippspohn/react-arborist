@@ -2084,6 +2084,7 @@ function $9511ad6af37da13b$export$c49dab5eb1b4ce0c({ treeProps: treeProps , impe
                         options: {
                             rootElement: api.props.dndRootElement || undefined
                         },
+                        manager: treeProps.dragDropManager,
                         children: children
                     })
                 })

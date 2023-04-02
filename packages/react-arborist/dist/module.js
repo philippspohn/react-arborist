@@ -2063,6 +2063,7 @@ function $dac24389e46ba09d$export$c49dab5eb1b4ce0c({ treeProps: treeProps , impe
                         options: {
                             rootElement: api.props.dndRootElement || undefined
                         },
+                        manager: treeProps.dragDropManager,
                         children: children
                     })
                 })
